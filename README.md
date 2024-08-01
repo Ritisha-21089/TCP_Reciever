@@ -24,6 +24,8 @@ A ByteStream class stores a collection of bytes from which bytes can be read or 
 
 A Reassembler class reassembles the segments received from the sender into a contiguous stream of bytes. The Reassembler receives substrings from the sender along with their position within the larger stream.
 
+![image](https://github.com/user-attachments/assets/a41b7897-af7c-41f3-99da-7555a55070aa)
+
 **Implementation Steps:**
 - Implemented the Reassembler class in `src/reassembler.cc` based on the interface in `src/reassembler.hh`.
 - The Reassembler handles three categories of knowledge:
